@@ -1,6 +1,6 @@
 {
     "name": "@zentrix/baileys",
-    "version": "4.2.3",
+    "version": "4.2.5",
     "description": "WhatsApp Modified By Zentrix",
     "keywords": [
         "whatsapp-baileys"
@@ -109,5 +109,12 @@
     },
     "bugs": {
         "url": "https://github.com/ZENTRIX-TECH1/zentrix-baileys/issues"
+    },
+    "exports": {
+        ".": {
+            "require": "./lib/index.js",
+            "import": "./lib/index.mjs",
+            "default": "./lib/index.js"
+        }
     }
 }
